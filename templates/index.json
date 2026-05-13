@@ -217,6 +217,20 @@
       "settings": {
         "my_text": "Hello from down below"
       }
+    },
+    "my_first_section_4Bi8pB": {
+      "type": "my-first-section",
+      "name": "my test section",
+      "settings": {
+        "my_text": "hello from further down"
+      }
+    },
+    "promotion_bEqhQy": {
+      "type": "promotion",
+      "name": "my promotion section",
+      "settings": {
+        "my_text": ""
+      }
     }
   },
   "order": [
@@ -227,6 +241,8 @@
     "video_mkRQhN",
     "collage_iBdUTt",
     "my_first_section_H8fCeg",
-    "my_first_section_keMzEb"
+    "my_first_section_keMzEb",
+    "my_first_section_4Bi8pB",
+    "promotion_bEqhQy"
   ]
 }
