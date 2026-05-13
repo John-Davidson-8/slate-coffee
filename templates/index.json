@@ -1,0 +1,232 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Try the world's aromas",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Banner_image_main.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "name": "Featured Products",
+      "settings": {
+        "title": "<strong>Our Favorites ❤️</strong>",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "featured_blog_WwdiRB": {
+      "type": "featured-blog",
+      "name": "t:sections.featured-blog.presets.name",
+      "settings": {
+        "heading": "<strong>Learn more about coffee 💡</strong>",
+        "heading_size": "h2",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-2",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_jpHreg": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_tCBnnn": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Coffee  Club</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_tdzNkn": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Join our Coffee Club, the ultimate subscription service for lovers! We explore exceptional flavours delivered to your doorstep. With out curated selection of premium coffees, experience unmatched quality and freshness in every cup. Elavate your coffee-drinking with Coffee Club today! </h5>",
+            "text_style": "body"
+          }
+        },
+        "button_gyXPWJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tCBnnn",
+        "text_tdzNkn",
+        "button_gyXPWJ"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Product_pack.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_mkRQhN": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://vimeo.com/582023095",
+        "cover_image": "shopify://shop_images/Roasting-video-thumbnail.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_iBdUTt": {
+      "type": "collage",
+      "blocks": {
+        "image_x3pjQf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2w.png"
+          }
+        },
+        "image_mtRnP9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Collage-section1.png"
+          }
+        },
+        "image_3CQWrT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Collage-section.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_x3pjQf",
+        "image_mtRnP9",
+        "image_3CQWrT"
+      ],
+      "name": "t:sections.collage.presets.name",
+      "settings": {
+        "heading": "<strong>Coffee of the Month 💥</strong>",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "my_first_section_H8fCeg": {
+      "type": "my-first-section",
+      "name": "test section",
+      "settings": {
+        "my_text": "Hello from the homepage"
+      }
+    },
+    "my_first_section_keMzEb": {
+      "type": "my-first-section",
+      "name": "test section",
+      "settings": {
+        "my_text": "Hello from down below"
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_collection",
+    "featured_blog_WwdiRB",
+    "image_with_text_jpHreg",
+    "video_mkRQhN",
+    "collage_iBdUTt",
+    "my_first_section_H8fCeg",
+    "my_first_section_keMzEb"
+  ]
+}

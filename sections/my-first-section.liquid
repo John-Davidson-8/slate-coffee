@@ -1,0 +1,30 @@
+{{ 'component-my-first-section.css' | asset_url | stylesheet_tag }}
+
+
+<div class="my-first-section">
+   <h3>{{section.settings.my_text}}</h3> 
+</div>
+
+
+
+
+
+{% schema %}
+    {
+        "name": "test section",
+        "settings": [
+
+            {
+                "type": "text",
+                "id": "my_text",
+                "label": "My Text"
+                
+            }
+
+        ],
+        "presets": [
+            {"name":"my test section"}
+        ]
+    }
+{% endschema %}
+
