@@ -1,53 +1,91 @@
 <style>
-  .promo-bar {
-    background-color: #f5f5f5;
-    padding: 20px 0;
-  }
-
-  .promo-bar__inner {
+  .promotion-container {
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 12rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    flex-direction: column;
+    gap: 2rem;
   }
 
-   @media screen and (max-width: 749px) {
-    .promo-bar__inner {
-      flex-direction: column;
-      text-align: center;
+  .promotion-container h2 {
+    margin: 0;
+  }
+
+  @media screen and (min-width: 750px) {
+    .promotion-container {
+      flex-direction: row;
       gap: 4rem;
     }
-  }
+}
+
+.promotion-container {
+  background: gray;
+}
+.promotion-container h2,
+.promotion-container div {
+  color: red;
+}
 </style>
 
-<div class="promo-bar">
-  <div class="page-width">
-    <div class="promo-bar__inner">
-      <h2 class="promo-bar__heading">Get 20% off all sale items</h2>
-      <p class="promo-bar__subtext">Use code EXTRA at Checkout</p>
-      <a href="#" class="button">Shop Now</a>
-    </div>
-  </div>
+
+
+<div class="page-width promotion-container">
+  <h2 class="h1">Get 20% of all sale items</h2>
+  <div>Use code EXTRA at Checkout</div>
+  <a class="button" href="">Shop Now</a>
 </div>
 
 
 
 
 
-{% schema %}
-    {
-        "name": "promotion section",
-        "settings": [
 
-            {
-                "type": "text",
-                "id": "my_text",
-                "label": "My Text"
-                
-            }
 
-        ],
-        "presets": [
-            {"name":"my promotion section"}
-        ]
-    }
+{%  schema  %}
+  {
+    "name": "Promotion",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
+      },
+      {
+        "type": "text",
+        "id": "text",
+        "label": "Text"
+      },
+      {
+        "type": "text",
+        "id": "btn_text",
+        "label": "Button Label",
+        "default": "Shop Now"
+      },
+      {
+        "type": "url",
+        "id": "btn_link",
+        "label": "Button link"
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background color",
+        "default": "transparent"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text color",
+        "default": "#000000"
+      }
+      
+
+
+    ],
+    "presets": [
+      {"name": "Promotion"}
+    ]
+  }
 {% endschema %}
