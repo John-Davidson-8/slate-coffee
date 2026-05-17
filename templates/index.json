@@ -225,10 +225,29 @@
         "my_text": "hello from further down"
       }
     },
-    "promotion_WF3Rzy": {
+    "promotion_itfMy6": {
       "type": "promotion",
       "name": "Promotion",
-      "settings": {}
+      "settings": {
+        "heading": "Get 20% off all sale items",
+        "text": "Use code EXTRA at Checkout",
+        "btn_text": "Shop Now",
+        "btn_link": "",
+        "bg_color": "#c4c3c3",
+        "text_color": "#362e2e"
+      }
+    },
+    "promotion_eYWAE9": {
+      "type": "promotion",
+      "name": "Promotion",
+      "settings": {
+        "heading": "Save on Next Purchase",
+        "text": "Many deals in store",
+        "btn_text": "Shop Now",
+        "btn_link": "",
+        "bg_color": "#a32c2c",
+        "text_color": "#291a1a"
+      }
     }
   },
   "order": [
@@ -241,6 +260,7 @@
     "my_first_section_H8fCeg",
     "my_first_section_keMzEb",
     "my_first_section_4Bi8pB",
-    "promotion_WF3Rzy"
+    "promotion_itfMy6",
+    "promotion_eYWAE9"
   ]
 }
